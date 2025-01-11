@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{width: 100%;}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    position: static;
+    top 0;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    z-index: 999;
+    width: 100%;
+    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 80px;
+    position: relative;
+    list-style: none;
+}
+.section-p1{
+    padding: 40px 80px;
+
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+}
+#header .nav{
+    max-height: 100px;
+    border-radius: 15px;
+    width: 99px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+    list-style: none;
+}
+#navbar li a:hover,
+#navbar li a.home{
+    color: #008178
+}
+#hero .gm:hover{
+color: red;
+}
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+.text-container{
+    max-width: 50%;
+}
+.text-container {
+ text-align: center;
+}
+#hero h1{
+    padding-bottom: 50px;
+    color: black;
+    text-decoration: underline;
+}
+#hero h2{
+    padding-bottom: 15px;
+    color: #0f8880
+}
+#hero h4{
+    color:#088178;
+    padding-top: 2px;
+}
+.image-container{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#features{
+    height: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+#features h2{
+    padding-top: 20px;
+    color: #800020;
+}
+#features h3{
+    padding-top: 10px;
+    color: #008178;
+}
+#feature{
+    border: 2px solid black;
+}
+#main{
+    width:100%
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border: 2px solid red;
+}
+#feature .febox{
+    width: 270px;    
+    text-align: center;
+    padding: 25px 15px;
+    border: 2px solid #ddeee0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .febox:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 110px;
+    padding: 20px;
+}
+.door{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 18px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+.door img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer{
+    height: 190px;
+    background: #263238;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-link i{
+        margin: 1.1rem;}
+
+#ban{
+    padding-bottom: 15px;
+}
+        .banner1{
+            height: 98px;
+            margin-top: 2.4rem;
+            width: 100%;
+            background: #e63946;
+            color: #f4f4f4;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px #605e5e;
+            
+        }
+
+
+/*############about page###########*/
+.about{
+    padding: 3rem 0;
+}
+/*}
+.lg-heading{
+    border-bottom: 6px solid #e63946;  this also used to give border on bottom
+}*/
+/*.about.lg-heading::after{
+    content: "";
+    display: block;/*This pseudo element help us to give border as we need*/
+    
+    
+    
+
+
+.about-wraper{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 17px;
+    
+   
+}
+.about-wraper li:hover{
+    color: #0f8880;
+}
+.abo{
+    font-size: 17px;
+    font-weight: 400;
+}
+li{
+    font-weight: 550;
+    color: red;
+    list-style: none;
+    padding: 4px;
+    margin-bottom: 6px;
+    margin-top: 25px;
+    transition: 0.3sec;
+}
+.left{
+    float: left;
+    width: 50%;
+    
+}
+.right{
+    float: right;
+    width: 50%;
+}
+.about-wraper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.counts{
+    margin-top: 2rem;
+    
+
+}
+.count-items{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e63946;
+}
+.count-items p{
+    font-weight: 700;
+    color: #555555;
+    font-size: 1.3rem;
+}
+.banner{
+    margin-top: 2.4rem;
+    width: 100%;
+    background: #e63946;
+    color: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #605e5e;
+}
+.banner-left{
+    width: 60%;
+    float: left;
+}
+.banner-right{
+
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.line{
+    font-weight: 700;
+    margin-top: 0.3rem;
+}
+.btn-ctn{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 0.2em 0em ;
+    letter-spacing: 0.3rem;
+}
+
+
+
+/*############contact form #########*/
+.contact-form{
+    
+    padding: 5rem 0re,;
+    background: #f7f7f7;
+}
+
+
+.form-wraper::after{
+    content: '';
+    display: block;
+     clear: both;
+    }
+.company-adress{
+    height: 760px;
+    background: #fff;
+    width: 49%;
+    padding: 1rem;
+    float: left;
+}
+.company-adress i{
+    font-size: 1.7rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.company-adress h2{
+    font-size: 1.rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.adress-group{
+    margin-bottom: 1.5rem;
+}
+.company-adress img{
+    max-width: 98%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center;
+
+}
+#contact {
+    padding: 40px;
+     height: 50px;
+    float: right;
+    color: red; /* Light background for contrast */
+    text-align: center; /* Center text */
+}
+#con{
+    color: black;
+}
+#contact h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+#contact p {
+    font-size: 1.1em; /* Slightly larger font for the message */
+    margin-bottom: 30px; /* Space below the message */
+}
+
+
+    @media (max-width: 768px) {
+        .main {
+            flex-direction: column; /* Stack items vertically */
+            align-items: flex-start; /* Align items to the start */
+        }
+    
+        #navbar {
+            flex-direction: column; /* Stack navbar items vertically */
+            gap: 10px; /* Reduce gap */
+        }
+    
+        #hero {
+            flex-direction: column; /* Stack hero section items */
+            align-items: center; /* Center items */
+        }
+    
+        .text-container {
+            max-width: 100%; /* Full width on smaller screens */
+            text-align: center; /* Center text */
+        }
+    
+        .door {
+            width: 45%; /* Adjust width for smaller screens */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        #header{
+            height: 190px;
+        }
+        .door {
+            width: 100%; /* Full width for very small screens */
+        }
+    
+        .main {
+            padding: 10px; /* Reduce padding */
+        }
+    
+        #navbar {
+            gap: 5px; /* Further reduce gap */
+        }
+    
+        #hero {
+            padding: 20px; /* Reduce padding */
+        }
+    
+        .footer {
+            font-size: 0.8em; /* Smaller font size */
+        }
+        .image-container{
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 10px;
+        }
+        .door{
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin: 80px;
+            padding: 5px;
+            text-align: start;
+            
+        }
+        .door img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+         #b ,#a{
+
+        display: none;
+        }
+        .abo{
+            font-size: 16px;
+        }
+        .about-wraper li{
+            font-weight: 400;
+            text-align: start;
+        }
+        
+        .btn-ctn{
+            font-size: 18px;
+            font-weight: 550;
+            border: 3px solid white;
+            padding: 0.1em 0em ;
+            letter-spacing: 0.2rem;
+            border-radius: 5px;
+        }
+        #hero h1{
+            padding-bottom: 50px;
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 550;}
+     #gm1{
+          font-size: 16px;
+     }
+     .company-adress img{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+     }
+     #contact {
+        display: none; 
+        
+    }
